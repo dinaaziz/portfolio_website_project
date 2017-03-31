@@ -1,5 +1,6 @@
 body {
-  background-image:url('images/glass2.jpg');
+  background-image:url('images/5.jpg');
+  background-size: cover;
   color: #000305;
   font-size: 87.5%;  /* Base font size is 14px */
   font-family: Arial, 'Lucida Sans Unicode';
@@ -21,16 +22,32 @@ a:hover, a:active{
   clear: both;
 }
 
-.mainheader img {
+.mainHeader img {
   width: 30%;
   height: auto;
   margin: 2% 0;
 }
 
-..mainheader nav {
-  background-color: pink;
+  .mainHeader nav {
+  background-color: #A52A2A;
   height: 40px;
   border-radius: 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
+}
+
+.mainHeader nav ul {
+  list-style: none;
+  margin: 0 auto;
+}
+
+.mainHeader nav ul li {
+  float: left;
+  display: inline;
+}
+
+.mainHeader nav a:link, .mainHeader nav a:visited {
+  color: #FFF;
+  display: inline-block;
+  padding: 10px 25px;
 }
