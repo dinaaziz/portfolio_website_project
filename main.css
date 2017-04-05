@@ -12,10 +12,13 @@ a {
   text-decoration: none;
 }
 
-/*a:link, a:visited {
+a:link, a:visited {
+  color: #CF5C3F;
 }
 a:hover, a:active{
-}*/
+  background-color:  #CF5C3F;
+  color: #FFF;
+}
 .body {
   margin: 0 auto;
   width: 70%;
@@ -23,8 +26,8 @@ a:hover, a:active{
 }
 
 .mainHeader img {
-  width: 30%;
-  height: auto;
+  width: 150px;
+  height: 200px;
   margin: 2% 0;
 }
 
@@ -70,10 +73,84 @@ a:hover, a:active{
   border-radius: 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
-  overflow: hidden;
 }
 
 .content{
   width: 70%;
   float: left;
+}
+ /*.topcontent{
+   background-color: #FFF;
+   border-radius: 5px;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   padding: 3% 5%;
+   margin-top: 2%
+ }
+
+ .bottomcontent{
+   background-color: #FFF;
+   border-radius: 5px;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   padding: 3% 5%;
+   margin-top: 2%
+ }*/
+
+.top-sidebar {
+  width: 21%;
+  float: left;
+  background-color: #FFF;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  margin-left: 3%;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  padding: 2% 3%;
+}
+
+.middle-sidebar {
+  width: 21%;
+  float: left;
+  background-color: #FFF;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  margin-left: 3%;
+  margin-bottom: 2%;
+  padding: 2% 3%;
+}
+.bottom-sidebar {
+  width: 21%;
+  float: left;
+  background-color: #FFF;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  margin-left: 3%;
+  margin-bottom: 2%;
+  padding: 2% 3%;
+}
+
+.mainfooter{
+  width: 100%;
+  float: left;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-color: #A52A2A;
+  margin-top: 2%;
+  height: 40px;
+}
+
+.mainfooter p{
+  width: 92%;
+  margin-left:  2%;
+  margin-bottom: 6%;
+  color:#FFF;
+}
+
+.post-info{
+  font-style: italic;
 }
