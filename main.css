@@ -50,4 +50,23 @@ a:hover, a:active{
   color: #FFF;
   display: inline-block;
   padding: 10px 25px;
+  height: 20px;
+}
+
+.mainHeader nav a:hover, .mainHeader nav a:active, .mainHeader nav .active a:link,
+ .mainHeader nav .active a:link, .mainHeader nav .active a:visited{
+  background-color: black;
+  text-shadow: none;
+}
+
+.mainHeader nav ul li a {
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;  
+}
+
+.mainContent{
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
 }
