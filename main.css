@@ -79,7 +79,7 @@ a:hover, a:active{
   width: 70%;
   float: left;
 }
- /*.topcontent{
+ .topcontent{
    background-color: #FFF;
    border-radius: 5px;
    -moz-border-radius: 5px;
@@ -95,7 +95,7 @@ a:hover, a:active{
    -webkit-border-radius: 5px;
    padding: 3% 5%;
    margin-top: 2%
- }*/
+ }
 
 .top-sidebar {
   width: 21%;
@@ -153,4 +153,82 @@ a:hover, a:active{
 
 .post-info{
   font-style: italic;
+}
+
+@media only screen and (min-width: 150px) and (max-width: 600px)  {
+  .body{
+  width: 90%;
+  font-size: 90%;}
+
+  .mainHeader img {
+    width: 100%;
+  }
+  .mainHeader nav {
+    height: 160px;
+  }
+
+  .mainHeader nav ul {
+    padding-left: 0
+  }
+
+  .mainHeader nav ul li {
+    width: 100%;
+    text-align: center; }
+
+  .mainHeader nav a:link, .mainHeader nav a:visited {
+    padding: 10px 25px;
+    height: 20px;
+    display: block;
+  }
+
+  .mainHeader nav ul li a {
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+  }
+
+  .mainContent{
+    line-height: 25px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+  }
+
+  .content{
+    width: 100%;
+    float: left;
+    margin-top: 2%;
+  }
+   .topcontent{
+     margin-top: 4%
+   }
+
+   .bottomcontent{
+     margin-top: 4%
+   }
+
+   .top-sidebar {
+     width: 94%;
+     margin-left: 0;
+     margin-bottom: 2%;
+     margin-top: 2%;
+     padding: 2% 3%;
+   }
+
+   .middle-sidebar {
+     width: 94%;
+     margin-left: 0;
+     margin-bottom: 2%;
+     margin-top: 2%;
+     padding: 2% 3%;
+   }
+   .bottom-sidebar {
+     width: 94%;
+     margin-left: 0;
+     margin-bottom: 2%;
+     margin-top: 2%;
+     padding: 2% 3%;
+   }
+
+
 }
