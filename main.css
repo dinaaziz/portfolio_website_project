@@ -1,3 +1,14 @@
+.header1 {
+  height: 40px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px; background-color: #084573;}
+  header .header1 .for {color: #FFF; float: left; font-size: 18px; margin: 7px 20px;
+  }
+    header .header1 .search { float:right; margin: 7px 30px;}
+    header .header1 .search input{height: 22px; padding: 0 10px; border-radius: 15px; border: 2px solid #3FF308;}
+    header .header1 .search input:hover{border: 2px solid #FE0D0D; letter-spacing: 3px;}
+/*.search{  width: 1280px; height: 80px; background-color: #90F908;}*/
 body {
   background-image:url('images/g.jpg');
   background-size: cover;
@@ -123,6 +134,15 @@ a:hover, a:active{
   margin-bottom: 2%;
   padding: 2% 3%;
 }
+.contact td ul li img{
+  width: 50px; height: 40px;
+}
+.contact td ul li{
+  font-size: 12px; font-style:cursive; font-family:serif; color: #FFF;
+}
+.contactinfo .contact{background-color:#084573; border-radius: 3px; height: 30px; width: 100%; }
+.contact td ul li{font-size: 24px; text-shadow: #FFF;}
+.contact td ul li .co{color: #FFF;}
 
 .mainfooter{
   width: 100%;
