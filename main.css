@@ -5,6 +5,26 @@
   -webkit-border-radius: 5px; background-color: #084573;}
   header .header1 .for {color: #FFF; float: left; font-size: 18px; margin: 7px 20px;
   }
+mark{
+  font-size: 18px;
+}
+
+ #mba{
+   width: 144px;
+   height: 144px;
+   margin: 1% 7%;
+   border-color: #b3ffff;
+   /*border-radius: 300px;*/
+   border-style:solid;
+}
+#code{
+  width: 144px;
+  height: 144px;
+  margin: 1% 7%;
+  border-color: #b3ffff;
+  /*border-radius: 300px;*/
+  border-style:solid;
+}
     header .header1 .search { float:right; margin: 7px 30px;}
     header .header1 .search input{height: 22px; padding: 0 10px; border-radius: 15px; border: 2px solid #3FF308;}
     header .header1 .search input:hover{border: 2px solid #FE0D0D; letter-spacing: 3px;}
@@ -12,7 +32,7 @@
 body {
   background-image:url('images/g.jpg');
   background-size: cover;
-  color: #000305;
+  color: blue;
   font-size: 87.5%;  /* Base font size is 14px */
   font-family: Arial, 'Lucida Sans Unicode';
   line-height: 1.5;
@@ -36,7 +56,7 @@ a:hover, a:active{
   clear: both;
 }
 
- img {
+  #self{
   width: 144px;
   height: 200px;
   margin: 1% 7%;
@@ -166,6 +186,9 @@ a:hover, a:active{
   font-style: italic;
 }
 
+#icons nav ul li{  float: left;
+  display: inline;
+}
 @media only screen and (min-width: 150px) and (max-width: 600px)  {
   .body{
   width: 90%;
