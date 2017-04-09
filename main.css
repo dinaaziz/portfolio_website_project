@@ -19,7 +19,7 @@ mark{
 }
 #code{
   width: 144px;
-  height: 100px;
+  height: 144px;
   margin: 1% 7%;
   border-color: #b3ffff;
   /*border-radius: 300px;*/
@@ -43,13 +43,33 @@ mark{
     header .header1 .search input:hover{border: 2px solid #FE0D0D; letter-spacing: 3px;}
 /*.search{  width: 1280px; height: 80px; background-color: #90F908;}*/
 body {
-  background-image:url('images/غيوم.jpg');
+  background-image:url('images/22.jpg');
   background-size: cover;
   color: black;
   font-size: 87.5%;  /* Base font size is 14px */
   font-family: Arial, 'Lucida Sans Unicode';
   line-height: 1.5;
   text-align: left;
+}
+
+.aboutme {
+  position: relative;
+  padding-left: 1em;
+  background-color: #FFF;
+  padding-top: 0.1em;
+  border-left: 0.25em solid #000;
+  border-right: 0.25em solid #000;
+  border-bottom: 0.25em solid #000;
+}
+
+.aboutme:after {
+  content:"";
+  background: black;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 90%;
+  height: 0.25em;
 }
 
 a {
@@ -177,6 +197,22 @@ a:hover, a:active{
 .contact td ul li{font-size: 24px; text-shadow: #FFF;}
 .contact td ul li .co{color: #FFF;}
 
+.contactinfo > ul > li {
+  padding: 1em;
+  float: left;
+  list-style: none;
+}
+
+.contactinfo > ul > li > a {
+  color: #E3F8FE;
+}
+
+.contactinfo > ul > li > a > img {
+  width: 25px;
+  height: 20px;
+  margin-right: 1em;
+}
+
 .mainfooter{
   width: 100%;
   float: left;
@@ -301,3 +337,15 @@ h2{
    width: 70%;
    clear: both;
  }
+ #cv{
+   background-color: #FFF;
+   font-size: 2em;
+   margin-top: 2em;
+ }
+ v{
+   color: blue;
+   font-weight: bold;
+ }
+v:hover{
+  color: #08C1F9;
+}
