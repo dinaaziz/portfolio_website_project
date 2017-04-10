@@ -78,6 +78,7 @@ a {
 
 a:link, a:visited {
   color: #CF5C3F;
+  font-size: 1em;
 }
 a:hover, a:active{
   background-color:  #CF5C3F;
@@ -220,8 +221,9 @@ a:hover, a:active{
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   background-color: #017D71;
-  margin-top: 2%;
+  margin-top: 4%;
   height: 40px;
+
 }
 
 .mainfooter p{

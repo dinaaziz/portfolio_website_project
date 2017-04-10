@@ -5,8 +5,8 @@ $(document).ready(function(){
 function ajaxGitRequest(){
   $.get("skills.json", function(data){
   console.log(data)
-  varbhtml='';
-  $.each(data.skills, function(item, correspond){
+  var html='';
+  $.each(data.skills, function(index, correspond){
     html+='<div class="list">'+
     '<a href="#" class="item"'+
     '<h4 class="name">'+correspond.name+'</h4>'+
@@ -15,6 +15,6 @@ function ajaxGitRequest(){
     '</div>';
   });
   $('#skills').html(html);
-);
-}
+});
+
 }

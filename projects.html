@@ -10,14 +10,21 @@
   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
   <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
 <script src="https://use.fontawesome.com/07ecc517b9.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/skills.js"></script>
+<script type="text/javascript" src="js/projects.js"></script>
+
 </head>
 <body>
+
   <header class="mainHeader" >
     <nav> <ul>
-      <li><a href="index.html">Homepage</a>
-        <a href="about.html">About</a>
-        <a href="projects.html">Projects</a>
-        <a href="skills.html">Skills</a>
+      <li><a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="skills.html">Skills</a>
+      <a href="another.html">Another</a>
+      <a href="click.html">Click me To Download my Resume</a>
       </li>
     </ul>
     </nav>
@@ -25,18 +32,18 @@
 <!-- Header ending -->
 
 <br>
+<div class="container">
 <section class="btn">
-  <button class="button_1" id="btnCurrent"><i class="fa fa-github fa-1x" aria-hidden="true"></i> Recent Works</button>
-  <button class="button_2"><i class="fa fa-github fa-1x" aria-hidden="true"></i> Favorite Works</button>
-  <button class="button_3"><i class="fa fa-youtube-play" aria-hidden="true"></i><a href="youtube.html"> Favorite Youtube</a></button>
+  <button class="button_1">
+    <i id="recent"> Recent Projects</i></button>
+  <button class="button_2"><i id="favorite"> Favorite Projects</i></button>
 </section>
-<div class="tt">
-<table class="table-fill">
-</table>
+<div class="panel panel-default">
+  <div class="panel-body">
+  </div>
 </div>
-<div class="tt">
-<table class="table-fill2">
-</table>
+</div>
+<div class="error"></div>
 </div>
 
 <div class="contactinfo">
@@ -46,6 +53,11 @@
   <li><a class="co" href="https://www.linkedin.com/in/dinaaziz/"><img id="in" src="images/in.png" >Linkdin</a></li>
 </ul>
 </div>
-</table>
-
 </body>
+</html>
+
+<footer class="mainfooter">
+  <p>Copyright &copy; Dina Aziz 2017</p>
+</footer>
+</body>
+</html>
