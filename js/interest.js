@@ -29,7 +29,7 @@ $(document).ready(function(){
          $.each(data.items,function(i,item){
            console.log(item);
           videoTitle=item.snippet.title;
-          output= '<li><iframe height="'+vidHeight+'" width="'+vidWidth'" src=\"//www.youtube.com/embed/'+videoId+'\"></ifram></li>';
+          output= '<li><iframe height='+vidHeight+'  width='+vidWidth+' src=\"//www.youtube.com/embed/'+videoId+'\"></iframe></li>';
           $('#results').append(output);
          })
        })
