@@ -13,9 +13,10 @@ mark{
    width: 144px;
    height: 144px;
    margin: 1%;
-   border-color: #b3ffff;
+   border-color: blue;
    /*border-radius: 300px;*/
-   border-style:solid;
+   border-style:hidden;
+   border-radius: 2.5em;
 }
 
 #code{
@@ -23,8 +24,8 @@ mark{
   height: 144px;
   margin: 1% 2%;
   margin-left: 0.5em;
-  border-color: #b3ffff;
-  border-style:solid;
+  border-color: blue;
+  border-style:hidden;
 }
 
 #in{
@@ -346,6 +347,8 @@ h2{
    font-size: 2em;
    margin-top: 2em;
  }
+
+ }
  v{
    color: blue;
    font-weight: bold;
@@ -393,4 +396,13 @@ v:hover{
 
 .recent{
   color: #FFF;
+}
+
+/*style for interest page*/
+#container{
+  width:800px;
+  margin:auto;
+  overflow: auto;
+  background-color: #fff;
+  padding: 15px;
 }
