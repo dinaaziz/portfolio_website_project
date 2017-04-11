@@ -22,8 +22,8 @@ mark{
   width: 144px;
   height: 144px;
   margin: 1% 2%;
+  margin-left: 0.5em;
   border-color: #b3ffff;
-  /*border-radius: 300px;*/
   border-style:solid;
 }
 
@@ -225,7 +225,6 @@ a:hover, a:active{
   background-color: #017D71;
   margin-top: 4%;
   height: 40px;
-
 }
 
 .mainfooter p{
@@ -233,8 +232,6 @@ a:hover, a:active{
   margin-left:  2%;
   margin-bottom: 6%;
   color:#FFF;
-  position: fixed;
-  bottom: 0;
 }
 
 .post-info{
@@ -247,6 +244,7 @@ a:hover, a:active{
 @media only screen and (min-width: 150px) and (max-width: 600px)  {
   .body{
   width: 90%;
+  height: 100%;
   font-size: 90%;}
 
  img {

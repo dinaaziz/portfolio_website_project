@@ -59,8 +59,8 @@ function showStarredRepos(data){
 	// html+= '<div class="row">';
 	$.each(data,function(e,item){
 		html+= '<div class="col-sm-12">'
-		html+= '<a href="https://api.github.com/users/dinaaziz/repos?sort=starred' +'" target="_blank">'+item.name+'</a>';
-		html+= '   written by:  ' +item.language +'  langauge'+'</span>'
+		html+= '<a href="'+item.html_url+'" target="_blank">'+item.name+'</a>';
+		html+= ' written by:  ' +item.language +'  langauge'+'</span>'
 		html+='</div>'
 	});
 	html+='</div>'
