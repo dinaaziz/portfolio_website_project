@@ -12,7 +12,7 @@ mark{
  #mba{
    width: 144px;
    height: 144px;
-   margin: 1% 7%;
+   margin: 1%;
    border-color: #b3ffff;
    /*border-radius: 300px;*/
    border-style:solid;
@@ -20,7 +20,7 @@ mark{
 #code{
   width: 144px;
   height: 144px;
-  margin: 1% 7%;
+  margin: 1% 2%;
   border-color: #b3ffff;
   /*border-radius: 300px;*/
   border-style:solid;
