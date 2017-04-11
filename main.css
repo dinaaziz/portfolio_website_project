@@ -229,10 +229,12 @@ a:hover, a:active{
 }
 
 .mainfooter p{
-  width: 92%;
+  width: 100%;
   margin-left:  2%;
   margin-bottom: 6%;
   color:#FFF;
+  position: fixed;
+  bottom: 0;
 }
 
 .post-info{
