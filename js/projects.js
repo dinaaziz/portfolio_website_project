@@ -13,19 +13,18 @@ function onClickRecent(){
 
 function projectsloader(){
 	$.ajax({
-		url:'https://api.github.com/users/dinaaziz/repos?sort=created',
+		url:'https://api.github.com/users/dinaaziz/repos?sort=updated&per_page=5',
 		type:'GET',
 		dataType:'json',
 		success:function(data){
 			showProjects(data)
 		},
-		// fail:showError
 	})
 }
 function showProjects(json){
 	var data = json.slice(0,5);
 	var html = '';
-	// html+= '<div class="row">';
+	html+= '<div class="recent">';
 	$.each(data,function(e,item){
 		html+= '<div class="col-sm-12">'
 		html+= '<a href="'+item.html_url+'" target="_blank">'+item.name+'</a>';
@@ -33,7 +32,7 @@ function showProjects(json){
 		html+= '</div>'
 	});
 	// html+='</div>'
-	$('.container .panel .panel-body').html(html);
+	$('.container .star .star-body').html(html);
 }
 function showError(error){
 	$('.container .error').html(`${error}`);
@@ -41,29 +40,29 @@ function showError(error){
 /* favorite */
 function onClickFavorite(){
 	$('.container #favorite').click(function(event){
-		loadPinnedRepos();
+		loadStarredRepos();
 		event.preventDefault();
 	});
 }
-function loadPinnedRepos(){
+function loadStarredRepos(){
 	$.ajax({
-		url:'https://gh-pinned-repos.now.sh/?username=dinaaziz',
+		url:'https://api.github.com/users/dinaaziz/repos?sort=starred',
 		type:'GET',
 		dataType:'json',
 		success:function(data){
-			showPinnedRepos(data);
+			showStarredRepos(data);
 		}
 	});
 }
-function showPinnedRepos(data){
+function showStarredRepos(data){
 	var html='';
 	// html+= '<div class="row">';
 	$.each(data,function(e,item){
 		html+= '<div class="col-sm-12">'
-		html+= '<a href="https://github.com/dinaazi/'+ item.repo +'" target="_blank">'+item.repo+'</a>';
+		html+= '<a href="https://api.github.com/users/dinaaziz/repos?sort=starred' +'" target="_blank">'+item.name+'</a>';
 		html+= '   written by:  ' +item.language +'  langauge'+'</span>'
 		html+='</div>'
 	});
 	html+='</div>'
-	$('.container .panel .panel-body').html(html);
+	$('.container .star .star-body').html(html);
 }
