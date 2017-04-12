@@ -79,9 +79,10 @@ a {
 }
 
 a:link, a:visited {
-  color: yellow;
+  color:#0436FE;
   font-size: 1em;
 }
+
 a:hover, a:active{
   background-color:  #CF5C3F;
   color: #FFF;
@@ -410,6 +411,15 @@ v:hover{
 
 /*style skills page*/
 h3{
-  color: yellow;
-  font-size: 2em;
+  color: #C4FE04;
+  font-size: 1em;
+}
+
+#skills{
+  font-size: 1.2em;
+ font-family: sans-serif;
+ /*background-color: #B6F0FE;*/
+ background: rgba(0, 0, 0, 0.6);
+ /*opacity: 0.8;*/
+ padding: 2em;
 }
