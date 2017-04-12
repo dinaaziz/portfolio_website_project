@@ -79,7 +79,7 @@ a {
 }
 
 a:link, a:visited {
-  color: indigo;
+  color: yellow;
   font-size: 1em;
 }
 a:hover, a:active{
@@ -405,4 +405,11 @@ v:hover{
   overflow: auto;
   background-color: #fff;
   padding: 15px;
+}
+
+
+/*style skills page*/
+h3{
+  color: yellow;
+  font-size: 2em;
 }
