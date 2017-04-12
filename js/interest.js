@@ -19,7 +19,7 @@ $(document).ready(function(){
 
     function getVids(pid){
     $.get(
-      "https://www.googleapis.com/youtube/v3/channels",{
+      " https://www.googleapis.com/youtube/v3/playlistItems",{
         part: 'snippet',
         maxResults: vidResults,
         playlistId: pid,
